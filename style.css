@@ -13,7 +13,6 @@
     position: relative;
 }
 
-
 .footer-title {
     text-align: center;
     font-size: 24px;
@@ -22,14 +21,12 @@
     letter-spacing: 0.5px;
 }
 
-
 .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: flex-end; 
     width: 100%;
 }
-
 
 .footer-left {
     display: flex;
@@ -63,16 +60,6 @@
 .email-icon {
     color: #ffffff; 
 }
-.instagram-icon {
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.email-icon {
-    color: #ffffff; 
-}
 
 .contact-item a {
     color: #b3b3b3;
@@ -89,17 +76,8 @@
     text-align: left; 
 }
 
-.phone-icon {
-    color: #ffffff;
-}
-
 .credit-title {
     color: #8e8e8e;  
-    font-size: 14px;
-    margin-bottom: 6px;
-}
-.credit-title {
-    color: #8e8e8e; 
     font-size: 14px;
     margin-bottom: 6px;
 }
