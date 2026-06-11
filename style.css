@@ -99,7 +99,7 @@
         align-self: flex-start;
     }
 }
-.phone-icon {
+.contact-item .phone-icon {
     color: #ffffff;
     font-size: 22px;
 }
