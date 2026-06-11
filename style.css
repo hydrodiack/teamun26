@@ -53,8 +53,8 @@
     -webkit-text-fill-color: transparent;
 }
 
-.phone-icon {
-    color: #ffffff;
+.whatsapp-icon {
+    color: #25D366;
 }
 
 .email-icon {
@@ -98,8 +98,3 @@
     .footer-right {
         align-self: flex-start;
     }
-}
-.contact-item .phone-icon {
-    color: #ffffff;
-    font-size: 18px;
-}
