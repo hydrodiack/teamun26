@@ -99,3 +99,7 @@
         align-self: flex-start;
     }
 }
+.phone-icon {
+    color: #ffffff;
+    font-size: 22px
+}
