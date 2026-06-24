@@ -1,3 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.custom-footer {
+    background-color: #000000; 
+    color: #ffffff; 
+    padding: 40px 8% 30px 8%; 
+    width: 100%;
+    position: relative;
+}
+
+.footer-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    letter-spacing: 0.5px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; 
+    width: 100%;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px; 
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+
+.contact-item i {
+    font-size: 28px; 
+    width: 28px;         
+    text-align: center;  
+}
+
+.instagram-icon {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.whatsapp-icon {
+    color: #25D366;
+}
+
+.contact-item a {
+    color: #b3b3b3;
+    text-decoration: underline; 
+    font-size: 16px;
+    transition: color 0.2s ease;
+}
+
+.contact-item a:hover {
+    color: #ffffff; 
+}
+
+.footer-right {
+    text-align: left; 
+}
+
+.credit-title {
+    color: #8e8e8e;  
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.credit-name {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+    }
+    
+    .footer-right {
+        align-self: flex-start;
+    }
+} 
 .main-header {
     width: 100%;
     background-color: #ffffff;
