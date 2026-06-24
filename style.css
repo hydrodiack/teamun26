@@ -225,9 +225,15 @@
     background-size: cover;       
     background-position: center;  
 }
+.banner-container {
+    width: 100%;
+    background-color: #1b0fa3; 
+    display: block;
+    line-height: 0;           
+}
 
-@media (max-width: 768px) {
-    .hero-banner {
-        height: 220px; 
-    }
+.banner-img {
+    width: 100%;
+    height: auto;              
+    display: block;
 }
