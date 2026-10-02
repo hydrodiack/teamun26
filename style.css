@@ -6,11 +6,12 @@
 }
 
 .custom-footer {
-    background-color: #000000; 
+    background-color: #00082c; 
     color: #ffffff; 
     padding: 40px 8% 30px 8%; 
     width: 100%;
     position: relative;
+    border-top: 1px solid rgba(216, 169, 102, 0.2); 
 }
 
 .footer-title {
@@ -19,6 +20,7 @@
     font-weight: 700;
     margin-bottom: 40px;
     letter-spacing: 0.5px;
+    color: #d8a966; 
 }
 
 .footer-content {
@@ -58,9 +60,10 @@
 }
 
 .contact-item a {
-    color: #b3b3b3;
+    color: #d8a966; 
     text-decoration: underline; 
     font-size: 16px;
+    font-weight: 500;
     transition: color 0.2s ease;
 }
 
@@ -73,7 +76,7 @@
 }
 
 .credit-title {
-    color: #8e8e8e;  
+    color: #a3b1cc; 
     font-size: 14px;
     margin-bottom: 6px;
 }
