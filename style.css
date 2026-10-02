@@ -174,7 +174,7 @@
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #ffffff; /*dropdown background color*/
+    background-color: #000c41; /*dropdown background color*/
     min-width: 200px;
     box-shadow: 0 8px 16px rgba(0,0,0,0.1);
     border-radius: 4px;
@@ -183,7 +183,7 @@
 }
 
 .dropdown-content a {
-    color: #2b3d86; /*dropdown text color*/
+    color: #d8a966; /*dropdown text color*/
     padding: 12px 20px;
     text-decoration: none;
     display: block;
