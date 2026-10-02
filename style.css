@@ -107,6 +107,49 @@
     z-index: 1000;
 }
 
+.venue-section {
+    width: 100%;
+    padding: 60px 8% 40px 8%;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.venue-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 8px;
+}
+
+.venue-name {
+    font-size: 32px;
+    font-weight: 800;
+    color: #000c41; 
+    margin-bottom: 12px;
+}
+
+.venue-address {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.map-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.map-container iframe {
+    display: block;
+    width: 100%;
+}
+
+
 .header-container {
     max-width: 1400px;
     margin: 0 auto;
@@ -224,46 +267,4 @@
         flex-wrap: wrap;
         justify-content: center;
     }
-}
-
-.venue-section {
-    width: 100%;
-    padding: 60px 8% 40px 8%;
-    text-align: center;
-    background-color: #ffffff;
-}
-
-.venue-title {
-    font-size: 28px;
-    font-weight: 700;
-    color: #333333;
-    margin-bottom: 8px;
-}
-
-.venue-name {
-    font-size: 32px;
-    font-weight: 800;
-    color: #000c41; 
-    margin-bottom: 12px;
-}
-
-.venue-address {
-    font-size: 16px;
-    color: #666666;
-    margin-bottom: 30px;
-    font-weight: 400;
-}
-
-.map-container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    overflow: hidden;
-}
-
-.map-container iframe {
-    display: block;
-    width: 100%;
 }
