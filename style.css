@@ -251,6 +251,10 @@
     color: #00082c;
 }
 
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 .dropdown:hover .dropdown-icon {
     transform: rotate(180deg);
 }
