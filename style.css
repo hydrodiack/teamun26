@@ -226,22 +226,14 @@
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #00082c; /*dropdown background color*/
+    background-color: #00082c;   
     min-width: 200px;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    max-height: 400px;
+    overflow-y: auto;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
     border-radius: 4px;
     padding: 10px 0;
     z-index: 1001;
-}
-
-.dropdown-content a {
-    color: #d8a966; /*dropdown text color*/
-    padding: 12px 20px;
-    text-decoration: none;
-    display: block;
-    font-size: 13px;
-    font-weight: 500;
-    transition: background-color 0.2s;
 }
 
 .dropdown-content a:hover {
