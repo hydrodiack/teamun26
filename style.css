@@ -6,12 +6,12 @@
 }
 
 .custom-footer {
-    background-color: #00082c; 
-    color: #ffffff; 
-    padding: 40px 8% 30px 8%; 
+    background-color: #00082c;
+    color: #ffffff;
+    padding: 40px 8% 30px 8%;
     width: 100%;
     position: relative;
-    border-top: 1px solid rgba(216, 169, 102, 0.2); 
+    border-top: 1px solid #d8a966;   
 }
 
 .footer-title {
