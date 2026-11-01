@@ -326,6 +326,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
+    max-width: 1000px;     
+    margin: 0 auto;       
 }
 
 .committee-figure {
@@ -335,7 +337,7 @@
 
 .committee-photo-card {
     width: 100%;
-    aspect-ratio: 4 / 3;
+    aspect-ratio: 16 / 9;  
     border: 3px solid #d8a966;
     border-radius: 16px;
     overflow: hidden;
