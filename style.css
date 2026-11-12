@@ -13,6 +13,11 @@
   image-rendering: pixelated; 
 }
 
+.deltarune-text {
+    font-family: 'Deltarunefont', sans-serif;
+    font-style: normal;
+}
+
 .custom-footer {
     background-color: #00082c;
     color: #ffffff;
