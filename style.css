@@ -5,6 +5,14 @@
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
+@font-face {
+  font-family: 'Deltarunefont';
+  src: url('fonts//DeterminationMonoWebRegular-Z5oq.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  image-rendering: pixelated; 
+}
+
 .custom-footer {
     background-color: #00082c;
     color: #ffffff;
