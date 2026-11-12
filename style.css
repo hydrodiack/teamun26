@@ -336,6 +336,11 @@
     margin: 0 auto;       
 }
 
+.committee-photos-three {
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1070px;   
+}
+
 .committee-figure {
     display: flex;
     flex-direction: column;
@@ -384,7 +389,8 @@
 }
 
 @media (max-width: 768px) {
-    .committee-photos {
+    .committee-photos,
+    .committee-photos-three {
         grid-template-columns: 1fr;
     }
 
