@@ -366,6 +366,23 @@
     margin-top: 15px;
 }
 
+.committee-role {
+    color: #d8a966;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 18px;
+}
+
+.committee-name {
+    color: #d8a966;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 4px;
+}
+
 @media (max-width: 768px) {
     .committee-photos {
         grid-template-columns: 1fr;
