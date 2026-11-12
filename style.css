@@ -336,9 +336,9 @@
     margin: 0 auto;       
 }
 
-.committee-photos-three {
-    grid-template-columns: 1fr 1fr 1fr;
-    max-width: 1070px;   
+.committee-photos.committee-photos-three {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1070px;
 }
 
 .committee-figure {
@@ -390,7 +390,7 @@
 
 @media (max-width: 768px) {
     .committee-photos,
-    .committee-photos-three {
+    .committee-photos.committee-photos-three {
         grid-template-columns: 1fr;
     }
 
