@@ -428,9 +428,10 @@
 
 @media (max-width: 768px) {
     .committee-info {
-        margin: 0;
+        margin: 18px 0 0;
         padding: 0;
     }
+}
 
     .committee-figure + .committee-figure .committee-info {
         border-left: none;
