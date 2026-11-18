@@ -467,6 +467,7 @@
     max-width: 1070px;
 }
 
+/*
 .committee-topics {
     display: flex;
     flex-wrap: wrap;
@@ -504,4 +505,5 @@
 
 .committee-topic-link:hover {
     color: #ffffff;
-}
+} 
+*/
