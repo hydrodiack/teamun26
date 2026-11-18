@@ -471,14 +471,19 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 40px 80px;            
-    max-width: 1070px;
+    gap: 40px 0;              
+    max-width: 1300px;
     margin: 60px auto 0;
 }
 
 .committee-topic {
     text-align: center;
-    max-width: 330px;
+    max-width: 410px;        
+    padding: 0 40px;
+}
+
+.committee-topic + .committee-topic {
+    border-left: 1px solid #d8a966;   
 }
 
 .committee-topic-title {
