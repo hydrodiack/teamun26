@@ -292,12 +292,27 @@
     color: #00082c;
 }
 
-.dropdown:hover .dropdown-content {
+@media (hover: hover) {
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown:hover .dropdown-icon {
+        transform: rotate(180deg);
+    }
+}
+
+.dropdown:focus-within .dropdown-content {
     display: block;
 }
 
-.dropdown:hover .dropdown-icon {
+.dropdown:focus-within .dropdown-icon {
     transform: rotate(180deg);
+}
+
+.dropdown-trigger {
+    cursor: pointer;
+    outline: none;     
 }
 
 @media (max-width: 992px) {
