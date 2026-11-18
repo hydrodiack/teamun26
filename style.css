@@ -602,3 +602,74 @@
     color: #ffffff;
 }
 */
+
+/* option 4!*/
+/* */
+.committee-topics-section {
+    width: 100%;
+    background-color: #000c41;
+    border-top: 1px solid #d8a966;
+    padding: 40px 20px 80px;
+}
+
+.committee-topics {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;      
+    gap: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.committee-topic {
+    text-align: left;
+}
+
+.committee-topic-title {
+    color: #d8a966;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.committee-topic-name {
+    color: #d8a966
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.committee-topic-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    text-decoration: none;
+    color: #d8a966;
+    transition: color 0.2s ease;
+}
+
+.committee-topic-link i {
+    font-size: 40px;
+}
+
+.committee-topic-file {
+    display: flex;
+    flex-direction: column;
+}
+
+.committee-topic-filename {
+    font-size: 14px;
+    font-weight: 600;
+    word-break: break-all;       
+}
+
+.committee-topic-download {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.committee-topic-link:hover {
+    color: #ffffff;
+}
+
