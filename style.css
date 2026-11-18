@@ -405,7 +405,7 @@
     font-weight: 700;
     letter-spacing: 1px;
     text-align: center;
-    margin-top: 18px;
+    margin-top: 0;           
 }
 
 .committee-name {
@@ -418,7 +418,7 @@
 
 .committee-info {
     flex: 1;
-    margin: 0 -20px;
+    margin: 18px -20px 0;     
     padding: 0 20px;
 }
 
