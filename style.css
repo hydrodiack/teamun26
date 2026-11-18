@@ -466,3 +466,37 @@
 .committee-paper.committee-paper-three {
     max-width: 1070px;
 }
+
+.committee-topics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px 80px;            
+    max-width: 1070px;
+    margin: 60px auto 0;
+}
+
+.committee-topic {
+    text-align: center;
+    max-width: 330px;
+}
+
+.committee-topic-title {
+    color: #d8a966;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.committee-topic-link {
+    color: #d8a966;
+    font-size: 20px;
+    line-height: 1.5;
+    text-decoration: underline;
+    transition: color 0.2s ease;
+}
+
+.committee-topic-link:hover {
+    color: #ffffff;
+}
