@@ -401,6 +401,27 @@
     margin-top: 4px;
 }
 
+.committee-info {
+    flex: 1;
+    margin: 0 -20px;
+    padding: 0 20px;
+}
+
+.committee-figure + .committee-figure .committee-info {
+    border-left: 1px solid #d8a966;
+}
+
+@media (max-width: 768px) {
+    .committee-info {
+        margin: 0;
+        padding: 0;
+    }
+
+    .committee-figure + .committee-figure .committee-info {
+        border-left: none;
+    }
+}
+
 @media (max-width: 768px) {
     .committee-photos,
     .committee-photos.committee-photos-three {
