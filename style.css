@@ -615,14 +615,17 @@
 .committee-topics {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;      
+    align-items: center;      
     gap: 40px;
     max-width: 900px;
     margin: 0 auto;
 }
 
 .committee-topic {
-    text-align: left;
+    text-align: center;           
+    display: flex;
+    flex-direction: column;
+    align-items: center;       
 }
 
 .committee-topic-title {
@@ -656,6 +659,7 @@
 .committee-topic-file {
     display: flex;
     flex-direction: column;
+    align-items: center;          
 }
 
 .committee-topic-filename {
