@@ -688,7 +688,7 @@
 
 .committee-topics {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;               /* was wrap, so topics shrink instead of dropping to a new row with a stray line */
     justify-content: center;
     gap: 40px 0;
     max-width: 1300px;
@@ -696,7 +696,8 @@
 }
 
 .committee-topic {
-    max-width: 410px;
+    flex: 0 1 370px;          
+    min-width: 0;
     padding: 0 40px;
     text-align: center;
     display: flex;
