@@ -832,3 +832,11 @@
         margin: 0 auto 40px;       
     }
 }
+
+html, body {
+    background-color: #00082c; 
+}
+
+html {
+    overscroll-behavior: none;
+}
