@@ -823,13 +823,13 @@
         padding-bottom: 40px;     
     }
 
-    .committee-topics-wrap::before {
+  .committee-topics-wrap::before {
         content: "";
         display: block;
-        width: 1px;               
-        height: 60px;            
+        height: 1px;                
+        width: auto;                
         background: #d8a966;
-        margin: 0 auto 40px;       
+        margin: 0 -20px 40px;        
     }
 }
 
