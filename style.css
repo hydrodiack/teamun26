@@ -726,8 +726,9 @@
 
 .committee-topics {
     display: flex;
-    flex-wrap: nowrap;            
+    flex-wrap: nowrap;
     justify-content: center;
+    align-items: stretch;     
     gap: 40px 0;
     max-width: 1300px;
     margin: 0 auto;
@@ -753,6 +754,7 @@
     font-weight: 700;
     letter-spacing: 1px;
     margin-bottom: 8px;
+    min-height: 2.4em;      
 }
 
 .committee-topic-name {
@@ -760,6 +762,7 @@
     font-size: 18px;
     line-height: 1.5;
     margin-bottom: 20px;
+    flex: 1;                   
 }
 
 .committee-topic-link {
