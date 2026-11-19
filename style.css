@@ -896,19 +896,6 @@ html {
     margin: 0 auto;
 }
 
-.schedule-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    gap: 30px;
-    padding: 12px 0;
-    border-bottom: 1px solid rgba(216, 169, 102, 0.35);   
-}
-
-.schedule-row:last-child {
-    border-bottom: none;
-}
-
 .schedule-event,
 .schedule-time {
     color: #d8a966;
