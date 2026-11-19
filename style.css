@@ -814,7 +814,6 @@
     }
 }
 
-/* hidden on desktop */
 .committee-topics-wrap::before {
     display: none;
 }
