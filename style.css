@@ -798,19 +798,23 @@
 
 @media (max-width: 768px) {
     .committee-topics {
-        flex-direction: column;
-        align-items: center;
+        grid-auto-flow: row;
+        grid-auto-columns: auto;
+        grid-template-rows: none;
+        justify-content: stretch;
         gap: 40px;
     }
 
     .committee-topic {
-        flex: 0 0 auto;
+        grid-row: auto;
+        grid-template-rows: none;
         width: 100%;
         max-width: 410px;
+        margin: 0 auto;
     }
 
     .committee-topic + .committee-topic {
-        border-left: none;         
+        border-left: none;
     }
 }
 
