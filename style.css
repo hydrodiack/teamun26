@@ -884,3 +884,50 @@ html {
         gap: 20px;
     }
 }
+
+.schedule-section {
+    width: 100%;
+    background-color: #000c41;
+    padding: 40px 20px 60px;
+}
+
+.schedule-list {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.schedule-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 30px;
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(216, 169, 102, 0.35);   
+}
+
+.schedule-row:last-child {
+    border-bottom: none;
+}
+
+.schedule-event,
+.schedule-time {
+    color: #d8a966;
+    font-size: 20px;     
+    font-weight: 400;   
+}
+
+.schedule-time {
+    white-space: nowrap; 
+    text-align: right;
+}
+
+@media (max-width: 768px) {
+    .schedule-event,
+    .schedule-time {
+        font-size: 17px;
+    }
+
+    .schedule-row {
+        gap: 15px;
+    }
+}
