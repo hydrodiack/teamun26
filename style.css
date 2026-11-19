@@ -852,24 +852,25 @@ html {
 }
 
 .school-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
     gap: 40px;
     max-width: 1100px;
     margin: 0 auto;
 }
 
 .school-logo {
-    aspect-ratio: 1 / 1;                  
+    flex: 0 0 calc((100% - 120px) / 4);
+    aspect-ratio: 1 / 1;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px;
-    border: 3px solid #d8a966;              
+    border: 3px solid #d8a966;
     border-radius: 16px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
 }
-
 .school-logo img {
     max-width: 100%;
     max-height: 100%;
