@@ -753,7 +753,6 @@
     font-weight: 700;
     letter-spacing: 1px;
     margin-bottom: 8px;
-    min-height: 3.6em;        
 }
 
 .committee-topic-name {
@@ -761,7 +760,6 @@
     font-size: 18px;
     line-height: 1.5;
     margin-bottom: 20px;
-    flex: 1;                   
 }
 
 .committee-topic-link {
