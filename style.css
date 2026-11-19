@@ -813,3 +813,23 @@
         border-left: none;         
     }
 }
+
+/* hidden on desktop */
+.committee-topics-wrap::before {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .committee-section {
+        padding-bottom: 40px;     
+    }
+
+    .committee-topics-wrap::before {
+        content: "";
+        display: block;
+        width: 1px;               
+        height: 60px;            
+        background: #d8a966;
+        margin: 0 auto 40px;       
+    }
+}
