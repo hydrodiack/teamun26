@@ -302,11 +302,15 @@
     }
 }
 
-.dropdown:focus-within .dropdown-content {
+.dropdown-toggle {
+    display: none;
+}
+
+.dropdown-toggle:checked ~ .dropdown-content {
     display: block;
 }
 
-.dropdown:focus-within .dropdown-icon {
+.dropdown-toggle:checked + .dropdown-trigger .dropdown-icon {
     transform: rotate(180deg);
 }
 
