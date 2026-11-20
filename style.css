@@ -880,8 +880,12 @@ html {
 
 @media (max-width: 768px) {
     .school-grid {
-        grid-template-columns: repeat(2, 1fr); 
-        gap: 20px;
+        gap: 16px;
+    }
+
+    .school-logo {
+        flex: 0 0 calc((100% - 32px) / 3);
+        padding: 12px;
     }
 }
 
