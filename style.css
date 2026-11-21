@@ -1018,17 +1018,6 @@ html {
     text-align: center;
 }
 
-.secret-input.wrong {
-    animation: secret-shake 0.3s;
-    border-color: #ff5a5a;
-}
-
-@keyframes fun-shake {
-    0%, 100% { transform: translateX(0); }
-    25% { transform: translateX(-8px); }
-    75% { transform: translateX(8px); }
-}
-
 .fun {
     display: none;
     position: fixed;
