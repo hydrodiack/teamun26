@@ -5,8 +5,8 @@
     var FLASH_MS = 500;     // 😈 //
 
     var SECRETS = {
-        'password one': 'images/fun-1.png',
-        'password two': 'images/fun-2.png'
+        'what does he even do': 'images/fun-1.png',
+        'lock in': 'images/fun-2.png'
     };
 
     var overlay = document.getElementById('fun-overlay');
