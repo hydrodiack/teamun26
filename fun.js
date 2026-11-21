@@ -9,9 +9,9 @@
         'password two': 'images/fun-2.png'
     };
 
-    var overlay = document.getElementById('secret-overlay');
-    var input = document.getElementById('secret-input');
-    var flash = document.getElementById('secret-flash');
+    var overlay = document.getElementById('fun-overlay');
+    var input = document.getElementById('fun-input');
+    var flash = document.getElementById('fun');
     var presses = [];
 
     Object.keys(SECRETS).forEach(function (k) {
