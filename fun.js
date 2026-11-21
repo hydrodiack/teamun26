@@ -5,7 +5,7 @@
     var FLASH_MS = 3000; // 😈 //
 
     var SECRETS = {
-        'what does he even do': 'images/fun-1.png',
+        'what does he even do': 'images/fun-1.jpeg',
         'lock in': 'images/fun-2.png'
     };
 
