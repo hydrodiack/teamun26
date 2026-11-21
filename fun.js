@@ -2,7 +2,7 @@
     var KONAMI = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown',
                   'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
     var TIME_LIMIT = 10000;   
-    var FLASH_MS = 3000; // 😈 //
+    var FLASH_MS = 3000; 
 
     var SECRETS = {
         'what does he even do': 'images/fun-1.jpeg',
