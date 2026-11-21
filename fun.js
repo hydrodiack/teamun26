@@ -2,7 +2,7 @@
     var KONAMI = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown',
                   'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
     var TIME_LIMIT = 10000;   
-    var FLASH_MS = 500;     // 😈 //
+    var FLASH_MS = 3000; // 😈 //
 
     var SECRETS = {
         'what does he even do': 'images/fun-1.png',
@@ -29,11 +29,15 @@
         input.blur();
     }
 
-    function flashImage(src) {
-        flash.src = src;
-        flash.style.display = 'block';
-        setTimeout(function () { flash.style.display = 'none'; }, FLASH_MS);
-    }
+   function flashImage(src) {
+    flash.src = src;
+    flash.classList.remove('show');
+    void flash.offsetWidth;                
+    flash.classList.add('show');
+    setTimeout(function () {
+        flash.classList.remove('show');
+    }, FLASH_MS);
+}
 
     document.addEventListener('keydown', function (e) {
         if (overlay.classList.contains('open')) return;
