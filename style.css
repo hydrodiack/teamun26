@@ -1024,8 +1024,19 @@ html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 95vw;              
+    width: 95vw;
     height: 95vh;
-    object-fit: contain;     
+    object-fit: contain;
     z-index: 4000;
+    pointer-events: none;      
+}
+
+.fun.show {
+    display: block;
+    animation: fun-fade 3s linear forwards;
+}
+
+@keyframes fun-fade {
+    0%, 33%  { opacity: 1; }  
+    100%     { opacity: 0; }   
 }
